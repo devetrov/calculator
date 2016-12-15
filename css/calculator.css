@@ -1,0 +1,255 @@
+/*@font-face {
+  font-family: "OpenSans-Bold";
+  src: url(/fonts/OpenSans-Bold.ttf); }
+*/
+@font-face {
+  font-family: "Ariel Regular";
+  src: url(/fonts/ARIALN.TTF); }
+
+@font-face {
+  font-family: "Ariel Bold";
+  src: url(/fonts/arialbd.ttf); }
+
+@font-face {
+  font-family: "Ariel Bold Italic";
+  src: url(/fonts/arialbi.ttf); }
+
+.kia-display .add_to_cart_button {
+  opacity: 1 !important;
+} 
+
+.elo-boost-wrapper h3 {
+  color: #51b2df !important;
+  font-family: OpenSans-Bold !important;
+  padding-bottom: 30px; }
+
+.blue {
+  color: #51b2df !important; }
+
+.yellow {
+  color: #f3c32b !important; }
+
+.price {
+  margin: 20px 0;
+  font-size: 18px; }
+
+hr {
+  margin: 40px 0; }
+
+a {
+  outline: 0; }
+  
+.pricebox.span3 { display: none; }
+
+.woocommerce .pricebox  {
+  display: none;
+}
+
+.nav-tabs {
+  font-family: OpenSans-Bold;
+  display: table;
+  width: 100%;
+  margin-top: 20px; 
+  margin:0;
+}
+  .nav-tabs li {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .nav-tabs a {
+    border-radius: 0 !important;
+    background-color: #f3f3f3;
+    border: 1px solid #e0e0e0 !important;
+    color: #888895; }
+  .nav-tabs li.active {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .nav-tabs li.active a {
+      background-color: #fefefe;
+      color: #51b2df;
+      border-bottom: none !important;
+      border-top: 2px solid #51b2df !important; }
+      
+.nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
+    padding: 10px 0 9px;
+    border-bottom: 1px solid transparent !important;
+}
+
+.tab-content {
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  margin-right: 2px; }
+  .tab-content .tab-pane {
+    background: #fefefe;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #fefefe), color-stop(47%, #f6f6f6), color-stop(100%, #f2f2f2));
+    background: -webkit-linear-gradient(top, #fefefe 0%, #f6f6f6 47%, #f2f2f2 100%);
+    background: linear-gradient(to bottom, #fefefe 0%, #f6f6f6 47%, #f2f2f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f2f2f2', GradientType=0 ); }
+    .tab-content .tab-pane .triangle {
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      width: 90px;
+      height: 90px;
+      /*background: url(/images/triangle.png); */
+    }
+      .tab-content .tab-pane .triangle p {
+        font-size: 15px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        left: -1px;
+        bottom: -24px;
+        font-weight: 600;
+        color: white;
+        font-family: OpenSans-Bold;
+        width: 82px; }
+    .tab-content .tab-pane h4 {
+      color: #111111;
+      /*font-family: OpenSans-Bold; */
+    }
+    .tab-content .tab-pane .form-control {
+      margin: 10px 5px; }
+    .tab-content .tab-pane .column {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-right: 1px solid #e7e7e7;
+      min-height: 328px; }
+    .tab-content .tab-pane img {
+      margin: 0 auto; }
+    .tab-content .tab-pane .price-box {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .tab-content .tab-pane .quality {
+      margin-top: 40px; 
+    }
+      .tab-content .tab-pane .quality h3 {
+        color: #9c9c9c !important;
+        font-size: 22px; }
+
+.blue-btn {
+  color: white !important;
+  background-color: #51b2df !important;
+  border: none !important;
+  border-radius: 1px !important;
+  border-bottom: 1px solid #4394b9 !important;
+  width: 100% !important;
+  padding: 9px !important;
+  font-weight: 600 !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+  .blue-btn:hover, .blue-btn:active, .blue-btn:focus {
+    background-color: #4394b9 !important;
+    color: white !important; }
+
+.panel-group .indicator {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 14px;
+  background: url(/images/minus.png) 100% no-repeat; }
+
+.panel-group .collapsed .indicator {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: url(/images/plus.png) 100% no-repeat; }
+
+.panel-group .panel-title a {
+  font-family: OpenSans-Bold; }
+  .panel-group .panel-title a:hover, .panel-group .panel-title a:active, .panel-group .panel-title a:focus {
+    text-decoration: none; }
+
+.panel-group .panel-body {
+  color: #7f7f8d; }
+
+.review {
+  background: url(/images/review-bg.png) 100% no-repeat;
+  min-height: 230px;
+  padding-top: 50px; }
+  .review .review-content p {
+    color: white;
+    padding: 30px 0; }
+  .review .review-content .btn {
+    max-width: 200px;
+    box-shadow: 0px 2px 0px 0px #4394b9; }
+
+.review-desc {
+  background-color: #f5f5f5;
+  border: 1px solid #f3c32b;
+  border-radius: 1px;
+  margin-top: 30px;
+  margin-bottom: 60px; }
+  .review-desc p {
+    font-family: Arial;
+    padding: 20px !important; }
+    .review-desc p strong {
+      font-family: "Ariel Bold";
+      font-weight: 500; }
+    .review-desc p i {
+      font-family: "Ariel Bold Italic";
+      color: #51b2df; }
+
+.bottom-text {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 30px; }
+  .bottom-text h4 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-weight: 600; }
+
+.product-preview li {
+  padding: 0 !important; }
+
+.tab-content {
+  padding: 0 !important; 
+  margin-top: -9px;
+}
+  .tab-content .active {
+    overflow: hidden; }
+
+.slider-range {
+  margin-top: 20px; }
+
+.input-range-box {
+  width: 35px !important;
+  height: 35px !important; }
+
+.kia-slider-i-want-to-buy {
+  border:0; 
+  color:#428bca; 
+  font-weight:bold; 
+  font-size: 16px; 
+  width: 45px!important; 
+  text-align: center;
+}
+
+.kia-slide-range {
+    max-width: 400px;
+    font-size: 20px !important;
+    background-color: #428bca !important;
+}
+
+.kia-corner {
+  width: 0%;
+}
+
+.kia-state {
+  left: 100%;
+}
+
+.kia-slide-range-2 {
+  width: 28.5714%;
+}
+
+.kia-corner-2 {
+  left: 71.4286%;
+}
+
+.kia-cont {
+  margin-top: 82px;
+}
